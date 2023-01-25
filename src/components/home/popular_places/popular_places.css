@@ -1,0 +1,123 @@
+.popular_title {
+  padding-top: 30px;
+}
+.popular_title h2 {
+  color: var(--main-color);
+  font-size: var(--font-30);
+  font-weight: var(--font-bold);
+  line-height: var(--line-height-30);
+}
+.card-details {
+  display: flex !important;
+}
+.card {
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.16);
+  border-radius: 20px;
+  padding: 0;
+  position: relative;
+  margin-top: 25px;
+  transform:scale(.9);
+  transition: transform 1s ease;
+}
+.card:hover{
+  transform:scale(1);
+}
+.heart {
+  position: absolute;
+  text-align: center;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.16);
+  top: 20px;
+  right: 10px;
+  background-color: #fff;
+  border-radius: 7px;
+  height: 30px;
+  width: 30px;
+}
+.heart img {
+  width: 26px;
+  height: 21px;
+}
+.card-title {
+  color: var(--main-color);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+}
+.card-details {
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 10px;
+}
+.card-img {
+  border-radius: 20px;
+  width: 100%;
+}
+.card-img img {
+  width: 100%;
+}
+.card-footer {
+  border-top: none;
+  background-color: transparent;
+  padding-top: 0 !important;
+}
+.card-footer p,
+.card-footer a {
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 10px;
+}
+.rate,
+.veiwer {
+  border-right: 1px solid;
+  padding-right: 2px;
+}
+@media (max-width: 600px) {
+  .popular_cards.row.pt-3 {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      padding: 0;
+  }
+
+  .popular_cards.row.pt-3 > div {
+      width: 50%;
+      padding: 5px;
+      border-radius: 2px;
+  }
+
+  .card-footer:last-child {
+      flex-wrap: wrap;
+      padding: 5px 10px;
+      gap:  10px 3px;
+  }
+
+  .card-footer p, .card-footer a {
+      margin: 0;
+  }
+
+  .card-body {
+      padding: 10px 5px;
+  }
+
+  p.card-details {
+      margin: 0;
+      line-height: 1.3;
+      font-size: 13px;
+  }
+
+  p.card-title {
+      font-size: 20px;
+      line-height: 1.7;
+  }
+
+  .main {
+      padding: 10px 0px;
+  }
+
+  .card {
+      border-radius: 10px;
+  }
+  .rate, .veiwer{
+    border-right: 0;
+  }
+}

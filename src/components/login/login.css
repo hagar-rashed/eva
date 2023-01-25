@@ -1,0 +1,113 @@
+.login{
+    padding-top:30px;
+    
+}
+.login .main-logo{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.login .main-logo img{
+    width: 400px;
+    height: auto;
+    object-fit: cover;
+margin-top: 18%;
+}
+.login form{
+    padding: 80px 30px;
+    margin: auto;
+    width: 100%;
+}
+.continue{
+    text-align: center;
+    position: relative;
+    padding: 15px 0;
+}
+.continue p{
+    line-height: 30px;
+}
+.continue::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 30%;
+    height: 1px;
+    background-color: blue;
+}
+.continue::before{
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 50%;
+    width: 30%;
+    height: 1px;
+    background-color: blue;
+}
+form legend{
+    text-align: center;
+
+}
+.login input {
+    background: #fff8ec;
+    border: none;
+    outline: none;
+    border-radius: 18px;
+    padding: 10px;
+}
+
+label.form-label {
+    color: #767a89;
+    font-size: 18px;
+}
+.login .btn{
+    width: 100%;
+    border-radius: 14px;
+border: none;
+padding: 9px;
+
+}
+.login button.btn.btn-primary {
+
+    background: #5051f8;
+}
+ 
+.login  button.btn.google-sign {
+   
+    background: #eeeeee;
+}
+    
+.login  button.btn.btn-success.mt-3 {
+    background: #41d37e;
+}
+.mb-3.form-check {
+    display: flex;
+    justify-content: space-between;
+}
+.form-check-input:checked{
+    background-color: #5051f9;
+}
+.form-check-input{
+    background: #fff;
+    border: 1px solid #5051f9;
+    padding: 0px;
+}
+
+label.form-check-label {
+    color: #5859f9;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 17px;
+}
+@media(min-width:991px){
+    .login{
+        padding-left:100px;
+
+    }
+  
+}
+@media (max-width:991px){
+    .login .main-logo img{
+        width: 200px;
+    }
+}

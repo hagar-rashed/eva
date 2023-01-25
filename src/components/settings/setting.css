@@ -1,0 +1,50 @@
+div.setting-edit:nth-last-of-type(1){
+    padding-top: 30px;
+}
+.setting-edit{
+  
+    width: 100%;
+    align-items: center;
+    padding: 12px;
+    border-radius: 15px;
+    background: #f9f9f9;
+    margin: 15px auto;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.35);
+}
+
+.setting-edit p {
+    margin-bottom: 0;
+}
+
+p.icon {
+    width: 30px;
+    height: 30px;
+    background: #efc66c;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+}
+
+
+.setting-detials{
+    border-bottom: 1px solid gray;
+}
+
+
+
+
+
+
+
+
+
+@media (min-width:991px){
+    .account-setting-details{
+        padding-top: 140px;
+    }    
+    .setting{
+        padding-left:100px;
+    }
+}

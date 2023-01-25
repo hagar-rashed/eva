@@ -1,0 +1,49 @@
+.profile-information ,.post{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.profile-img{
+    width: 39px;
+    height: 39px;
+  border-radius: 50%;
+  margin: auto;
+}
+.profile-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.profile-name {
+    text-align: center;
+}
+.post form {
+    width: 95%; 
+    margin: auto;
+}
+.post input{
+    margin: 8px 0;
+}
+.post input.createPost{
+    width:100%;
+    padding: 5px 8px;
+    background-color: hwb(24 36% 6%);
+    outline: none;
+    border: none;
+    border-radius: 18px;
+}
+input[type="submit"]{
+    display: block;
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+@media (max-width:768px){
+    .post{
+        margin-top:30px;
+
+    }
+}

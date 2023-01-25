@@ -1,0 +1,21 @@
+
+.profile{
+    margin-top: 20px;
+}
+.profile h2{
+    color:var(--main-color);
+}
+@media (min-width:991px){
+    .profile{
+        margin-left:80px;
+    }
+}
+@media (max-width:991px){
+    .profile{
+        padding-bottom:80px;
+    }
+    .profile h2{
+        padding-left: 15px;
+    }
+}
+

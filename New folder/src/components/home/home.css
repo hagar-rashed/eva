@@ -1,0 +1,12 @@
+
+.home{
+   position:relative;
+    
+    display: flex;
+    justify-content: space-between;
+}
+@media (min-width:991px){
+    .home{
+        margin-left:70px;
+    }
+}
